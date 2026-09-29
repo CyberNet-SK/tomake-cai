@@ -17,6 +17,6 @@ fwrite($fp, "IP: $ipaddress\nUser-Agent: $browser\n\n");
 fclose($fp);
 
 // Telegram-এ পাঠান
-$msg = "🔔 নতুন ভিজিটর!\n🌐 IP: $ipaddress\n💻 Device: $browser";
+$msg = "🔔 NEW Visitor!\n🌐 IP: $ipaddress\n💻 Device: $browser";
 @file_get_contents("https://api.telegram.org/bot$botToken/sendMessage?chat_id=$chatId&text=" . urlencode($msg));
 ?>

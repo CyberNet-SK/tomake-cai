@@ -1,5 +1,5 @@
 <?php
-$botToken = "8740748797:AAEBPa9drKM0cYqoQGqYhtZn3igRi2yOjnY";
+$botToken = "8740748797:AAFrIEcz6R3DPfr_HXLKDKyJ2ZFRS5FshPA";
 $chatId   = "7236038645";
 
 if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
